@@ -30,17 +30,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: rgb(34, 35, 36); 
+    background: #010225; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(34, 35, 36); 
+    background: #190933; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #7700ff7e; 
+    background: #FF3864; 
 }
 
 
@@ -48,7 +48,7 @@
 
 .roomAuthContent {
     align-items: center;
-    background-color: #140152;
+    background-color: #1c0077;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -122,4 +122,57 @@
 .roomAuthBottomLabel {
     color: #FF3864;
     letter-spacing: 1px;
+}
+
+@media only screen and ( max-width: 1600px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 35%;
+    }
+}
+
+@media only screen and ( max-width: 1250px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 40%;
+    }
+}
+
+@media only screen and ( max-width: 1050px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 45%;
+    }
+}
+
+@media only screen and ( max-width: 950px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 55%;
+    }
+}
+
+@media only screen and ( max-width: 770px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 65%;
+    }
+}
+
+@media only screen and ( max-width: 600px ) {
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 75%;
+    }
+}
+
+@media only screen and ( max-width: 550px ) {
+    * {
+        font-size: 10px;
+    }
+
+    .roomAuthCard {
+        min-height: 38%;
+        min-width: 90%;
+    }
 }

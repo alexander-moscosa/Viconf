@@ -5,7 +5,7 @@ export const Login = () => {
         <div className='roomAuthContent'>
             <RoomAuthCard>
                 <RoomAuthCard.Label labelMessage='Enter your PIN here:' />
-                <RoomAuthCard.Form placeholder='Video Conference PIN' />
+                <RoomAuthCard.Form placeholder='Video Conference PIN' path='join' />
                 <RoomAuthCard.BottomLabel labelMessage='Create your Viconf PIN' path='create' />
             </RoomAuthCard>
         </div>
