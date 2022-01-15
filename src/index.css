@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    /* No seleccionable text */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+:focus {
+    outline: 0;
+    /* or */
+    outline: none;
+}
+
+/* Scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(34, 35, 36); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(34, 35, 36); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7700ff7e; 
+}
+
+
+/* Rooms Auth */
+
+.roomAuthContent {
+    align-items: center;
+    background-color: #140152;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.roomAuthCard {
+    align-items: center;
+    background-color: #010225;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 38%;
+    min-width: 25%;
+    overflow: hidden;
+}
+
+.roomAuthLabel {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0%;
+    width: 100%;
+}
+
+.roomAuthLabel h1 {
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+.roomAuthForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.roomAuthForm input[type=text] {
+    border-radius: 5px;
+    border: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+}
+
+.roomAuthForm input[type=submit] {
+    background-color: #0D00A4;
+    border-radius: 5px;
+    border: none;
+    margin-top: 7%;
+    padding: 2% 15%;
+}
+
+.roomAuthForm input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.roomAuthBottom {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 5%;
+}
+
+.roomAuthBottomLabel {
+    color: #FF3864;
+    letter-spacing: 1px;
+}
